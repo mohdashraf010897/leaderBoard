@@ -1,0 +1,17 @@
+tbody {
+  color: #fff512;
+
+  tr {
+    background-color: #9c4100;
+    border-bottom: 1px solid #ebb014;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    td {
+      text-align: center;
+      padding: 8px;
+    }
+  }
+}
