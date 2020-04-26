@@ -6,7 +6,7 @@ A sample project, depicting the use of CRA with SSR.
 
 Clone the repository using the link : 
 
-[https://github.com/mohdashraf010897/leaderBoard](https://github.com/mohdashraf010897/leaderBoard)
+[https://github.com/mohdashraf010897/leaderBoard.git](https://github.com/mohdashraf010897/leaderBoard.git)
 
 
 Install the dependencies using npm/yarn.
