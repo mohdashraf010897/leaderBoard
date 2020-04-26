@@ -23,7 +23,7 @@ Open terminal and run the project as :
 node server/bootstrap.js
 ```
 
-Go to [localhost:8080](localhost:8080) in your browser.
+Go to [localhost:8080](https://localhost:8080) in your browser.
 
 ### `NOTE: REMEMBER TO INSTALL NODE IN YOUR COMPUTER  ` 
    Go To : [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
