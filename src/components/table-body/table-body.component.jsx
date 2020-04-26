@@ -1,19 +1,19 @@
-import React, { Component } from "react";
-import _ from "lodash";
+import React, { Component } from "react"
+import _ from "lodash"
 
-import "./table-body.styles.scss";
+import "./table-body.styles.scss"
 
-class TableBody extends Component {
+export default class TableBody extends Component {
   renderCell = (item, column) => {
-    return _.get(item, column.path);
-  };
+    return _.get(item, column.path)
+  }
 
   createKey = (item, column) => {
-    return item._id + column.path;
-  };
+    return item._id + column.path
+  }
 
-  render() {
-    const { data, columns } = this.props;
+  render = () => {
+    const { data, columns } = this.props
 
     return (
       <tbody>
@@ -27,8 +27,6 @@ class TableBody extends Component {
           </tr>
         ))}
       </tbody>
-    );
+    )
   }
 }
-
-export default TableBody;
